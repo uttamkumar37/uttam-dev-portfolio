@@ -1,69 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Uttam Kumar | Backend Java Engineer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uttam Kumar | Senior Java Backend Engineer</title>
+  <meta name="description" content="Professional portfolio of Uttam Kumar — Senior Java Backend Engineer focused on backend systems, microservices and high-quality testing." />
+  <meta name="author" content="Uttam Kumar" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <div class="container">
+  <main class="container">
+    <header>
+      <div class="avatar" role="img" aria-label="U K initials">UK</div>
+      <div>
+        <h1>Uttam Kumar</h1>
+        <p class="subtitle">Senior Java Backend Engineer | SDE-2 Aspirant</p>
+        <div><a class="cta" href="#contact">Contact</a></div>
+      </div>
+    </header>
 
-    <h1>Uttam Kumar</h1>
-    <p class="subtitle">Senior Java Backend Engineer | SDE-2 Aspirant</p>
+    <section class="grid" style="margin-top:22px">
+      <div>
+        <article class="card" id="about">
+          <h2>About Me</h2>
+          <p class="lead" style="margin-top:8px">
+            Backend Java Engineer with 4.5+ years of experience in product-based companies.
+            Strong in Java, Data Structures, and designing scalable backend systems.
+            Actively interviewing for SDE-2 backend roles in top product-based companies.
+          </p>
 
-    <section>
-      <h2>About Me</h2>
-      <p>
-        Backend Java Engineer with 4.5+ years of experience in product-based companies.
-        Strong in Java, Data Structures, and designing scalable backend systems.
-        Actively interviewing for SDE-2 backend roles in top product-based companies.
-      </p>
+          <h3 style="margin-top:16px">Key Skills</h3>
+          <ul class="skills" style="margin-top:8px">
+            <li>Java 8/11/17</li>
+            <li>Spring Boot</li>
+            <li>Microservices</li>
+            <li>REST / GraphQL</li>
+            <li>Hibernate / JPA</li>
+            <li>JUnit / Mockito</li>
+            <li>Docker / Kubernetes</li>
+            <li>System Design</li>
+          </ul>
+
+          <h3 style="margin-top:16px" id="projects">Selected Projects</h3>
+          <ul class="projects" style="margin-top:8px">
+            <li><strong>Project A</strong> — backend service for X (Spring Boot, PostgreSQL, Docker)</li>
+            <li><strong>Project B</strong> — event-driven microservice (Kafka, Testcontainers)</li>
+          </ul>
+        </article>
+
+        <article class="card" style="margin-top:16px">
+          <h2>Education</h2>
+          <ul style="margin-top:8px">
+            <li>Jawahar Navodaya Vidyalaya (Class 6–12)</li>
+            <li>GDST Scholar – Free IIT-JEE Coaching</li>
+            <li>IIT Guwahati – Electronics &amp; Communication Engineering</li>
+            <li>Master’s in Software Engineering (Ongoing)</li>
+          </ul>
+
+          <h2 style="margin-top:14px">Experience</h2>
+          <ul style="margin-top:8px">
+            <li>
+              <b>IN Digit Insurance – Backend Java Developer</b><br />
+              Worked on backend services and business-critical APIs using Java.
+            </li>
+            <li style="margin-top:8px">
+              <b>Verint – Java Developer</b><br />
+              Developing scalable backend systems with focus on clean architecture.
+            </li>
+          </ul>
+
+          <h2 style="margin-top:14px">Certifications</h2>
+          <p style="margin-top:8px">Java, Data Structures &amp; Algorithms, AI Agent Creation, AI Theory</p>
+
+          <h2 style="margin-top:14px">How to run (example)</h2>
+          <pre>mvn clean package
+java -jar target/your-app.jar</pre>
+          <p class="lead" style="margin:0">Use IntelliJ IDEA 2025.3.1.1 for development and debugging.</p>
+        </article>
+      </div>
+
+      <aside>
+        <div class="card" id="contact">
+          <h3>Contact</h3>
+          <p style="margin:8px 0;color:var(--muted)">
+            Email: <a href="mailto:uttamkumar37@gmail.com" style="color:var(--accent);text-decoration:none">uttamkumar37@gmail.com</a><br />
+            GitHub: <a href="https://github.com/uttamkumar37" target="_blank" rel="noopener noreferrer" style="color:var(--accent);text-decoration:none">github.com/uttamkumar37</a>
+          </p>
+          <p style="margin:8px 0;color:var(--muted)">Location: (update as needed)</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Quick Links</h3>
+          <ul style="padding-left:16px;margin:8px 0;color:var(--muted)">
+            <li><a href="#projects" style="color:var(--accent);text-decoration:none">Projects</a></li>
+            <li><a href="#about" style="color:var(--accent);text-decoration:none">About</a></li>
+            <li><a href="README.md" style="color:var(--accent);text-decoration:none">README</a></li>
+          </ul>
+        </div>
+      </aside>
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>Jawahar Navodaya Vidyalaya (Class 6–12)</li>
-        <li>GDST Scholar – Free IIT-JEE Coaching</li>
-        <li>IIT Guwahati – Electronics & Communication Engineering</li>
-        <li>Master’s in Software Engineering (Ongoing)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <ul>
-        <li>
-          <b>IN Digit Insurance – Backend Java Developer</b><br>
-          Worked on backend services and business-critical APIs using Java.
-        </li>
-        <li>
-          <b>Verint – Java Developer</b><br>
-          Developing scalable backend systems with focus on clean architecture.
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <p>Java, DSA, Backend APIs, System Design, Git, GitHub</p>
-    </section>
-
-    <section>
-      <h2>Certifications</h2>
-      <p>Java, Data Structures & Algorithms, AI Agent Creation, AI Theory</p>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>
-        Email: uttamkumar37@gmail.com <br>
-        GitHub: <a href="https://github.com/uttamkumar37">github.com/uttamkumar37</a>
-      </p>
-    </section>
-
-  </div>
+    <footer>
+      <small>Last updated: Jan 18, 2026 — Portfolio generated for Java backend roles.</small>
+    </footer>
+  </main>
 
 </body>
 </html>
